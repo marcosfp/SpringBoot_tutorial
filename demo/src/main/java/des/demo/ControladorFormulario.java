@@ -24,6 +24,7 @@ public class ControladorFormulario {
 		modelo.addAttribute("nombre_form", nombre);
 		modelo.addAttribute("nacido_form,", nacido);
 		modelo.addAttribute("hm_form", hm);
+		System.out.println("Hola");
 
 
 		return "datosFormulario";
